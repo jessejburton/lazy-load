@@ -1,0 +1,17 @@
+.image {
+  height: 400px;
+  transition: opacity 4s;
+}
+
+.img-loading {
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+.img-loaded {
+  position: relative;
+  opacity: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.7s;
+  animation-delay: 0.1s;
+}
